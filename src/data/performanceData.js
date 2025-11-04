@@ -26,4 +26,5 @@ export const performance2025 = [
   { month: "Octobre", image: "/medias/Oct2025.png" }
 ];
 
-export const monthlyAverage2025 = "+2.2%";
+export const monthlyAverage2024 = "+2.3%";
+export const monthlyAverage2025 = "+2.8%";

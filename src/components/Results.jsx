@@ -1,6 +1,6 @@
 import React from 'react';
 import { TrendingUp, DollarSign, Award, Wallet } from 'lucide-react';
-import { performance2024, performance2025, monthlyAverage2025 } from '../data/performanceData';
+import { performance2024, performance2025, monthlyAverage2024, monthlyAverage2025 } from '../data/performanceData';
 
 const Results = () => {
   return (
@@ -109,7 +109,7 @@ const Results = () => {
               <div className="flex items-center space-x-4">
                 <h3 className="text-white font-serif text-5xl">2024</h3>
                 <div className="bg-gold/10 px-4 py-2 rounded-full border border-gold/20">
-                  <span className="text-gold text-lg font-medium">+2.0% / mois</span>
+                  <span className="text-gold text-lg font-medium">{monthlyAverage2024} / mois</span>
                 </div>
               </div>
             </div>
