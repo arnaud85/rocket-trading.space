@@ -1,0 +1,59 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --navy-950: #0a0e1a;
+  --navy-900: #0f1420;
+  --navy-800: #1a1f2e;
+  --navy-700: #252b3d;
+  --gold: #d4af37;
+}
+
+@layer base {
+  body {
+    @apply bg-navy-950 text-gray-100 antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+}
+
+@layer utilities {
+  .bg-navy-950 {
+    background-color: var(--navy-950);
+  }
+  .bg-navy-900 {
+    background-color: var(--navy-900);
+  }
+  .bg-navy-800 {
+    background-color: var(--navy-800);
+  }
+  .bg-navy-700 {
+    background-color: var(--navy-700);
+  }
+  .text-gold {
+    color: var(--gold);
+  }
+  .bg-gold {
+    background-color: var(--gold);
+  }
+  .border-gold {
+    border-color: var(--gold);
+  }
+  .border-navy-800 {
+    border-color: var(--navy-800);
+  }
+  .border-navy-700 {
+    border-color: var(--navy-700);
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+#stars-container,
+#stars-sparse {
+  pointer-events: none;
+}
