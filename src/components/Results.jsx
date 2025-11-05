@@ -88,7 +88,7 @@ const Results = () => {
                   <span className="text-green-400 text-lg font-medium">{monthlyAverage2025} / mois</span>
                 </div>
                 <div className="bg-gold/10 px-4 py-2 rounded-full border border-gold/20">
-                  <span className="text-gold text-lg font-medium">{cumulativePerformance2025}</span>
+                  <span className="text-gold text-lg font-medium">{cumulativePerformance2025} sur l'année</span>
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Results = () => {
                   <span className="text-green-400 text-lg font-medium">{monthlyAverage2024} / mois</span>
                 </div>
                 <div className="bg-gold/10 px-4 py-2 rounded-full border border-gold/20">
-                  <span className="text-gold text-lg font-medium">{cumulativePerformance2024}</span>
+                  <span className="text-gold text-lg font-medium">{cumulativePerformance2024} sur l'année</span>
                 </div>
               </div>
             </div>
