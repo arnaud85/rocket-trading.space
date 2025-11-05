@@ -28,3 +28,34 @@ export const performance2025 = [
 
 export const monthlyAverage2024 = "+2.3%";
 export const monthlyAverage2025 = "+2.8%";
+
+export const cumulativePerformance2024 = "+29.06%";
+export const cumulativePerformance2025 = "+30.43%";
+
+export const monthlyPerformances2024 = [
+  { month: "Janvier", performance: 1.28 },
+  { month: "Février", performance: 4.44 },
+  { month: "Mars", performance: 4.59 },
+  { month: "Avril", performance: 2.54 },
+  { month: "Mai", performance: 3.08 },
+  { month: "Juin", performance: 1.88 },
+  { month: "Juillet", performance: 0.36 },
+  { month: "Août", performance: 1.85 },
+  { month: "Septembre", performance: 1.52 },
+  { month: "Octobre", performance: 1.40 },
+  { month: "Novembre", performance: 2.61 },
+  { month: "Décembre", performance: 1.56 }
+];
+
+export const monthlyPerformances2025 = [
+  { month: "Janvier", performance: 2.20 },
+  { month: "Février", performance: 2.83 },
+  { month: "Mars", performance: 2.46 },
+  { month: "Avril", performance: 3.42 },
+  { month: "Mai", performance: 1.59 },
+  { month: "Juin", performance: 4.51 },
+  { month: "Juillet", performance: 1.46 },
+  { month: "Août", performance: 3.60 },
+  { month: "Septembre", performance: 3.51 },
+  { month: "Octobre", performance: 2.10 }
+];
