@@ -95,13 +95,18 @@ const Results = () => {
             <span className="px-3 py-1 bg-gold/10 text-gold text-sm font-medium rounded-full border border-gold/20">#Stabilité</span>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-4">
             {performance2025.map((perf, index) => (
               <div key={index} className="relative">
                 <div className="absolute -inset-1 bg-gold/20 rounded-sm blur-md"></div>
                 <img src={perf.image} alt={`Performance ${perf.month} 2025`} className="relative w-full h-auto object-contain rounded-sm" />
               </div>
             ))}
+          </div>
+
+          <div className="space-y-2 text-sm">
+            <p className="text-green-400">* Moyenne arithmétique des performances mensuelles</p>
+            <p className="text-gold">* Avec composition des intérêts mensuellement</p>
           </div>
         </div>
 
@@ -122,13 +127,18 @@ const Results = () => {
             <span className="px-3 py-1 bg-gold/10 text-gold text-sm font-medium rounded-full border border-gold/20">#Stabilité</span>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-4">
             {performance2024.map((perf, index) => (
               <div key={index} className="relative">
                 <div className="absolute -inset-1 bg-gold/20 rounded-sm blur-md"></div>
                 <img src={perf.image} alt={`Performance ${perf.month} 2024`} className="relative w-full h-auto object-contain rounded-sm" />
               </div>
             ))}
+          </div>
+
+          <div className="space-y-2 text-sm">
+            <p className="text-green-400">* Moyenne arithmétique des performances mensuelles</p>
+            <p className="text-gold">* Avec composition des intérêts mensuellement</p>
           </div>
         </div>
       </div>
