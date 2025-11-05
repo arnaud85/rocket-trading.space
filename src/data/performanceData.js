@@ -29,8 +29,8 @@ export const performance2025 = [
 export const monthlyAverage2024 = "+2.3%";
 export const monthlyAverage2025 = "+2.8%";
 
-export const cumulativePerformance2024 = "+29.06%";
-export const cumulativePerformance2025 = "+30.43%";
+export const cumulativePerformance2024 = "+30.64%";
+export const cumulativePerformance2025 = "+31.34%";
 
 export const monthlyPerformances2024 = [
   { month: "Janvier", performance: 1.28 },

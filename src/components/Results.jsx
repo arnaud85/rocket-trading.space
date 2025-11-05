@@ -1,6 +1,6 @@
 import React from 'react';
 import { TrendingUp, DollarSign, Award, Wallet } from 'lucide-react';
-import { performance2024, performance2025, monthlyAverage2024, monthlyAverage2025 } from '../data/performanceData';
+import { performance2024, performance2025, monthlyAverage2024, monthlyAverage2025, cumulativePerformance2024, cumulativePerformance2025 } from '../data/performanceData';
 
 const Results = () => {
   return (
@@ -84,8 +84,11 @@ const Results = () => {
               <Wallet className="h-8 w-8 text-gold mr-4" />
               <div className="flex items-center space-x-4">
                 <h3 className="text-white font-serif text-5xl">2025</h3>
+                <div className="bg-green-500/10 px-4 py-2 rounded-full border border-green-500/20">
+                  <span className="text-green-400 text-lg font-medium">{monthlyAverage2025} / mois</span>
+                </div>
                 <div className="bg-gold/10 px-4 py-2 rounded-full border border-gold/20">
-                  <span className="text-gold text-lg font-medium">{monthlyAverage2025} / mois</span>
+                  <span className="text-gold text-lg font-medium">{cumulativePerformance2025}</span>
                 </div>
               </div>
             </div>
@@ -108,8 +111,11 @@ const Results = () => {
               <Wallet className="h-8 w-8 text-gold mr-4" />
               <div className="flex items-center space-x-4">
                 <h3 className="text-white font-serif text-5xl">2024</h3>
+                <div className="bg-green-500/10 px-4 py-2 rounded-full border border-green-500/20">
+                  <span className="text-green-400 text-lg font-medium">{monthlyAverage2024} / mois</span>
+                </div>
                 <div className="bg-gold/10 px-4 py-2 rounded-full border border-gold/20">
-                  <span className="text-gold text-lg font-medium">{monthlyAverage2024} / mois</span>
+                  <span className="text-gold text-lg font-medium">{cumulativePerformance2024}</span>
                 </div>
               </div>
             </div>
